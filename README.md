@@ -2,7 +2,11 @@
 
 ![Vincent logo](https://ucl-crest.github.io/iwsc2018-vincent-web/images/logo.png)
 
-We introduce a new code clone detection technique based on image similarity. The technique captures visual perception of code seen by humans in an IDE by applying syntax highlighting and images conversion on raw source code text. We compared two similarity measures, Jaccard and earth mover’s distance (EMD) for our image-based code clone detection technique. Jaccard similarity offered better detection perfor- mance than EMD. The F1 score of our technique on detecting Java clones with pervasive code modifications is comparable to five well-known code clone detectors: CCFinderX, Deckard, iClones, NiCad, and Simian. A Gaussian blur filter is chosen as a normalisation technique for type-2 and type-3 clones. We found that blurring code images before similarity computation resulted in higher precision and recall. The detection performance after including the blur filter increased by 1 to 6 percent. The manual investigation of clone pairs in three software systems revealed that our technique, while it missed some of the true clones, could also detect additional true clone pairs missed by NiCad.
+We introduce a new code clone detection technique based on image similarity, and a tool called **Vincent**. The technique captures visual perception of code seen by humans in an IDE by applying syntax highlighting and images conversion on raw source code text. 
+
+We compared two similarity measures, Jaccard and earth mover’s distance (EMD) for our image-based code clone detection technique. Jaccard similarity offered better detection perfor- mance than EMD. The F1 score of our technique on detecting Java clones with pervasive code modifications is comparable to five well-known code clone detectors: CCFinderX, Deckard, iClones, NiCad, and Simian. A Gaussian blur filter is chosen as a normalisation technique for type-2 and type-3 clones. We found that blurring code images before similarity computation resulted in higher precision and recall. The detection performance after including the blur filter increased by 1 to 6 percent. 
+
+The manual investigation of clone pairs in three software systems revealed that our technique, while it missed some of the true clones, could also detect additional true clone pairs missed by NiCad.
 
 ### Vincent: an image-based code clone detection tool
 

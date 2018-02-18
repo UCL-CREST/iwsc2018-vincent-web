@@ -1,8 +1,6 @@
 ## Welcome to GitHub Pages
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
-![Vincent logo](https://octodex.github.com/images/yaktocat.png)
+![Vincent logo](https://ucl-crest.github.io/iwsc2018-vincent-web/images/logo.png)
 
 You can use the [editor on GitHub](https://github.com/UCL-CREST/iwsc2018-vincent/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

@@ -2,13 +2,12 @@
 
 ![Vincent logo](https://ucl-crest.github.io/iwsc2018-vincent-web/images/logo.png)
 
-You can use the [editor on GitHub](https://github.com/UCL-CREST/iwsc2018-vincent/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+We introduce a new code clone detection technique based on image similarity. The technique captures visual perception of code seen by humans in an IDE by applying syntax highlighting and images conversion on raw source code text. We compared two similarity measures, Jaccard and earth mover’s distance (EMD) for our image-based code clone detection technique. Jaccard similarity offered better detection perfor- mance than EMD. The F1 score of our technique on detecting Java clones with pervasive code modifications is comparable to five well-known code clone detectors: CCFinderX, Deckard, iClones, NiCad, and Simian. A Gaussian blur filter is chosen as a normalisation technique for type-2 and type-3 clones. We found that blurring code images before similarity computation resulted in higher precision and recall. The detection performance after including the blur filter increased by 1 to 6 percent. The manual investigation of clone pairs in three software systems revealed that our technique, while it missed some of the true clones, could also detect additional true clone pairs missed by NiCad.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Vincent: an image-based code clone detection tool
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Vincent is an open-source tool and can be downloaded here: 
+Note: The EMD library [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) currently does not work with Ubuntu. I've found that it works with macOS. If you are running Vincent on Ubuntu, please comment the line `import emd`.
 
 ```markdown
 Syntax highlighted code block

@@ -8,32 +8,21 @@ We introduce a new code clone detection technique based on image similarity. The
 
 Vincent is an open-source tool and can be downloaded here: [Vincent repo](https://bitbucket.org/chaiyong_ragkhitwetsagul/vincent/overview)
 
-Note: The EMD library [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) currently does not work with Ubuntu. I've found that it works with macOS. If you are running Vincent on Ubuntu, please comment the line `import emd`.
+### Data Sets
 
-```markdown
-Syntax highlighted code block
+We used two data sets in this study:
+1. The generated data set to measure F1 scores of Vincent and other clone detectors. It is from our previous study. The data set can be found here: [Generated dataset](http://crest.cs.ucl.ac.uk/resources/cloplag/).
+2. The three Java systems (JUnit4, JFreeChart, Tomcat) are also from our another previous study. They can be found here: [IWSC 2017 Dataset](https://cragkhit.github.io/crjk-iwsc17/).
 
-# Header 1
-## Header 2
-### Header 3
+### Clones Reported by Vincent and NiCad
 
-- Bulleted
-- List
+The clone pairs reported by Vincent and NiCad can be downloaded here. We processed the clones so that they are divided into three different sets: 1) common (clone pairs found by both Vincent and NiCad), 2) disjoin-v (clone pairs found only by Vincent), 3) disjoint-n (clone pairs found only by NiCad).
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UCL-CREST/iwsc2018-vincent/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The clone reports can be downloaded [here](https://ucl-crest.github.io/iwsc2018-vincent-web/files/clones.zip).
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Vincent or the data? Please contact:
+
+* Chaiyong Ragkhitwetsagul, Research Student, CREST, University College London, UK 
+* Email: <chaiyong.ragkhitwetsagul.14@ucl.ac.uk> or <cragkhit@gmail.com>

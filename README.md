@@ -6,7 +6,8 @@ We introduce a new code clone detection technique based on image similarity. The
 
 ### Vincent: an image-based code clone detection tool
 
-Vincent is an open-source tool and can be downloaded here: 
+Vincent is an open-source tool and can be downloaded here: [Vincent repo](https://bitbucket.org/chaiyong_ragkhitwetsagul/vincent/overview)
+
 Note: The EMD library [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) currently does not work with Ubuntu. I've found that it works with macOS. If you are running Vincent on Ubuntu, please comment the line `import emd`.
 
 ```markdown

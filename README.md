@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## It's time for images to have a go at code clone detection!
 
 ![Vincent logo](https://ucl-crest.github.io/iwsc2018-vincent-web/images/logo.png)
 

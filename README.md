@@ -18,11 +18,11 @@ We used two data sets in this study:
 1. The generated data set to measure F1 scores of Vincent and other clone detectors. It is from our previous study. The data set can be found here: [Generated dataset](http://crest.cs.ucl.ac.uk/resources/cloplag/).
 2. The three Java systems (JUnit4, JFreeChart, Tomcat) are also from our another previous study. They can be found here: [IWSC 2017 Dataset](https://cragkhit.github.io/crjk-iwsc17/).
 
-### Clones Reported by Vincent and NiCad
+### Clones Reported by Vincent and NiCad and the manual clone validation
 
-The clone pairs reported by Vincent and NiCad can be downloaded here. We processed the clones so that they are divided into three different sets: 1) common (clone pairs found by both Vincent and NiCad), 2) disjoin-v (clone pairs found only by Vincent), 3) disjoint-n (clone pairs found only by NiCad).
+The clone pairs reported by Vincent and NiCad can be downloaded below. We processed the clones so that they are divided into three different sets: 1) common (clone pairs found by both Vincent and NiCad), 2) disjoin-v (clone pairs found only by Vincent), 3) disjoint-n (clone pairs found only by NiCad). The first author looked at 100-randomly sampled clone pairs in each projects and validated them.
 
-The clone reports can be downloaded [here](https://ucl-crest.github.io/iwsc2018-vincent-web/files/vincent_clones+manual_validation.zip).
+The clone reports and the manual clone validation results can be downloaded [here](https://ucl-crest.github.io/iwsc2018-vincent-web/files/vincent_clones+manual_validation.zip).
 
 ### Support or Contact
 

@@ -12,18 +12,18 @@ The manual investigation of clone pairs in three software systems revealed that 
 
 Vincent is an open-source tool and can be downloaded here:
 
-[>>>> Vincent Git Repo](https://bitbucket.org/chaiyong_ragkhitwetsagul/vincent/overview)
+[[ 🎨 Vincent Git Repo ]](https://bitbucket.org/chaiyong_ragkhitwetsagul/vincent/overview)
 
 ### Data Sets
 
 We used two data sets in this study:
 1. The generated data set to measure F1 scores of Vincent and other clone detectors. It is from our previous study. The data set can be found here:
 
-[>>>> The generated dataset](http://crest.cs.ucl.ac.uk/resources/cloplag/).
+[[ 🗂 The generated dataset ]](http://crest.cs.ucl.ac.uk/resources/cloplag/).
 
 2. The three Java systems (JUnit4, JFreeChart, Tomcat) are also from our another previous study. They can be found here:
 
-[>>>> The IWSC 2017 Dataset](https://cragkhit.github.io/crjk-iwsc17/).
+[[ 🗂 The IWSC 2017 Dataset ]](https://cragkhit.github.io/crjk-iwsc17/).
 
 ### Clones Reported by Vincent and NiCad and the manual clone validation
 
@@ -31,7 +31,7 @@ We processed the clones so that they are divided into three different sets: 1) c
 
 The clone pairs reported by Vincent and NiCad and the manual clone validation results can be downloaded below:
 
-[>>>> Clone report + manual validation results](https://ucl-crest.github.io/iwsc2018-vincent-web/files/vincent_clones+manual_validation.zip).
+[[ 🐑 Clone report + manual validation results ]](https://ucl-crest.github.io/iwsc2018-vincent-web/files/vincent_clones+manual_validation.zip).
 
 ### Support or Contact
 

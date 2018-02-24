@@ -2,9 +2,9 @@
 
 ![Vincent logo](https://ucl-crest.github.io/iwsc2018-vincent-web/images/logo.png)
 
-We introduce a new code clone detection technique based on image similarity, and a tool called **Vincent**. The technique captures visual perception of code seen by humans in an IDE by applying syntax highlighting and images conversion on raw source code text. 
+We introduce a new code clone detection technique based on image similarity, and a tool called **Vincent**. The technique captures visual perception of code seen by humans in an IDE by applying syntax highlighting and images conversion on raw source code text.
 
-We compared two similarity measures, Jaccard and earth mover’s distance (EMD) for our image-based code clone detection technique. Jaccard similarity offered better detection perfor- mance than EMD. The F1 score of our technique on detecting Java clones with pervasive code modifications is comparable to five well-known code clone detectors: CCFinderX, Deckard, iClones, NiCad, and Simian. A Gaussian blur filter is chosen as a normalisation technique for type-2 and type-3 clones. We found that blurring code images before similarity computation resulted in higher precision and recall. The detection performance after including the blur filter increased by 1 to 6 percent. 
+We compared two similarity measures, Jaccard and earth mover’s distance (EMD) for our image-based code clone detection technique. Jaccard similarity offered better detection perfor- mance than EMD. The F1 score of our technique on detecting Java clones with pervasive code modifications is comparable to five well-known code clone detectors: CCFinderX, Deckard, iClones, NiCad, and Simian. A Gaussian blur filter is chosen as a normalisation technique for type-2 and type-3 clones. We found that blurring code images before similarity computation resulted in higher precision and recall. The detection performance after including the blur filter increased by 1 to 6 percent.
 
 The manual investigation of clone pairs in three software systems revealed that our technique, while it missed some of the true clones, could also detect additional true clone pairs missed by NiCad.
 
@@ -22,11 +22,11 @@ We used two data sets in this study:
 
 The clone pairs reported by Vincent and NiCad can be downloaded here. We processed the clones so that they are divided into three different sets: 1) common (clone pairs found by both Vincent and NiCad), 2) disjoin-v (clone pairs found only by Vincent), 3) disjoint-n (clone pairs found only by NiCad).
 
-The clone reports can be downloaded [here](https://ucl-crest.github.io/iwsc2018-vincent-web/files/clones.zip).
+The clone reports can be downloaded [here](https://ucl-crest.github.io/iwsc2018-vincent-web/files/vincent_clones+manual_validation.zip).
 
 ### Support or Contact
 
 Having trouble with Vincent or the data? Please contact:
 
-* Chaiyong Ragkhitwetsagul, Research Student, CREST, University College London, UK 
+* Chaiyong Ragkhitwetsagul, Research Student, CREST, University College London, UK
 * Email: <chaiyong.ragkhitwetsagul.14@ucl.ac.uk> or <cragkhit@gmail.com>
